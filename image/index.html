@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lamg="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAS Beauty Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header site-->
+    <header>
+        <div class="logo">      
+        <img src="image.gif" class="img-fluid d-block mx-auto brand-logo">
+        </div>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+
+    <!--home section-------------------------------------------------------------------->
+    <section id="home" class="home scroll-scale">
+        <div class="home-content scroll-scale">
+            <h1>Hi! we are Dermatologist</h1>
+            <div class="change-text">
+                <h3>Welcome to</h3>
+                <h3>
+                    <span class="word">JAS Beauty Clinic</span>
+                    <span class="word">JAS Beauty Clinic</span>
+                    <span class="word">JAS Beauty Clinic</span>
+                    <span class="word">JAS Beauty Clinic</span>
+                </h3>
+            </div>
+
+            <p>In JAS Blueme clinics where beauty is crafted, every touch is a sculptor's stroke, shaping confidence and radiance.</p>
+            <a href="#" class="btn-row">Explore Now</a>
+        </div>
+    </section>
+
+    <!--Product section--------------------------------------------------------->
+<section id="product" class="product scroll-scale">
+    <h1>Discover Our Featured Product<h1>
+    <h2>Product</h2>
+    <div id="product-container" class="product-content">
+            <div class="product-info">
+                <div class="product-image" onclick="toggleProductInfo(this)"> 
+                    <img src="b1.jpg" alt="Product 1">
+                </div>
+                <h3>Sun Screen</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b2.jpg" alt="Product 1">
+                </div>
+                <h3>Serum</h3>
+                <div class="price">Php120.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-value">5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b3.jpg" alt="Product 1">
+                </div>
+                <h3>Facial Wash</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b4.png" alt="Product 1">
+                </div>
+                <h3>Soap Bar</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★★</span>
+                    <span class="rating-value">5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b5.jpg" alt="Product 1">
+                </div>
+                <h3>Toner</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b6.jpg" alt="Product 1">
+                </div>
+                <h3>Moiturizer</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b7.jpg" alt="Product 1">
+                </div>
+                <h3>Facial Mask</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="b8.png" alt="Product 1">
+                </div>
+                <h3>Lip Balm</h3>
+                <div class="price">Php100.00</div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-value">4.5/5</span>
+                </div>
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+        </div>
+    <div class="btn-box product-btn">
+        <a href="#" id="product-container" class="btn">View all</a>
+    </div>
+</section>
+
+    
+<section id="about" class="about">
+    <div class="img-about">
+        <div class="about-content scroll-scale">
+            <span>Let us introduce ourself</span>
+            <h2>About Us</h2>
+            <p>JAS Beauty Clinic is a premier destination for skincare and beauty solutions. With a team of experienced dermatologists and beauty experts, we offer personalized services to address your unique needs. Our mission is to help you achieve healthy, glowing skin and enhance your natural beauty.</p>
+            <div class="btn-box about-btn">
+                <a href="#" class="btn">Read more</a>
+            </div>
+            </div>
+            <div class="about-image-container">
+                <img src="abtimg.jpg" class="about-image">
+                <p>Arniel C. Puyales</p>
+                <h3>Manager</h3>
+            </div>
+            
+            <div class="about-image-container">
+                <img src="abtimg1.jpg" class="about-image">
+                <p>Stephany B. Cortes</p>
+                <h3>CEO</h3>
+            </div>
+            
+            <div class="about-image-container">
+                <img src="abtimg2.jpg"  class="about-image">
+                <p>
+                    Jezha B. Delatan
+                </p>
+                <h3>Assestant</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services scroll-bottom">
+        <div class="main-text">
+            <span>Experience our rejuvenating facials</span>
+            <h2>Services</h2>
+        </div>
+        <div class="section-services">
+            <div class="services-box">
+                <img src="img1.jpg" class="service-icon">
+                <h3>High-Frequency Facial</h3>
+                <p>
+                    Combat acne and promote skin healing with our high-frequency facial. 
+                    Our dermatologists use a gentle electrical current to oxygenate the skin, 
+                    kill acne-causing bacteria, and accelerate the healing process, leaving your skin clear and rejuvenated.
+                </p>
+
+                <div class="btn-box services-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="img4.jpg" class="service-icon">
+                <h3>Hydrating Facial</h3>
+                <p>
+                    Nourish and hydrate your skin with our luxurious hydrating facial. 
+                    Our dermatologists use hydrating masks, serums, and techniques to replenish moisture, 
+                    leaving your skin plump, smooth, and rejuvenated.
+                </p>
+
+                <div class="btn-box services-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="img3.jpg" class="service-icon">
+                <h3>Microdermabrasion</h3>
+                <p>
+                    Reveal smoother and more radiant skin with our microdermabrasion facial treatment. 
+                    Our dermatologists gently exfoliate the skin's outer layer, 
+                    reducing the appearance of fine lines, wrinkles, and uneven texture, for a refreshed and revitalized complexion.
+                </p>  
+
+                <div class="btn-box services-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact scroll-scale">
+        <div class="main-text">
+            <span>ask us question</span>
+            <h2>Contact Us</h2>
+        </div>
+
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your name">
+            <input type="email" id="email" placeholder="Your Email">
+            <input type="text" id="address" placeholder="Your Address">
+            <input type="tel" id="phone" placeholder="Phone Number">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+
+    </section>
+
+    <!-- footer ------------------------------------------------------------------------->
+    <section>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Works</a>
+                <a href="#">Career</a>
+            </div>
+            <div class="footer-box">
+                <h4>FAQ</h4>
+                <a href="#">Account</a>
+                <a href="#">Features</a>
+                <a href="#">Works</a>
+                <a href="#">Career</a>
+            </div>
+            <div class="footer-box">
+                <h4>Resources</h4>
+                <a href="#">Youtube Playlist</a>
+                <a href="#">Features</a>
+                <a href="#">Works</a>
+            </div>
+        <div class="footer-box">
+            <h4>Follow us</h4>
+            <div class="social">
+            <a href="https://www.facebook.com"><i class="bx bxl-facebook"></i></a>
+            <a href="https://instagram.com"><i class='bx bxl-instagram-alt'></i></i></a>
+            <a href="https://twitter.com"><i class='bx bxl-twitter'></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <div class="end-text">
+            <p>CopyRight 2024 By JAS Beauty Clinic</p>
+        </div>
+    </div>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
